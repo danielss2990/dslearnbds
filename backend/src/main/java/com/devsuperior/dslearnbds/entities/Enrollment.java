@@ -12,6 +12,7 @@ import com.devsuperior.dslearnbds.entities.pk.EnrollmentPK;
 @Entity
 @Table(name = "tb_enrollment")
 public class Enrollment {
+	
 	@EmbeddedId
 	private EnrollmentPK id = new EnrollmentPK();
 	
